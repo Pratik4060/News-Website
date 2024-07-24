@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/navbar'
 import NewsBoard from './components/newsBoard'
-import NewsItem from './components/newsitem'
 
 export const App = () => {
   const [category, setCategory] = useState("General");
